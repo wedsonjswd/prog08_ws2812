@@ -1,5 +1,6 @@
 .program ws2818b
 .side_set 1
+
 .wrap_target
     out x, 1        side 0 [2]
     jmp !x, 3       side 1 [1]
